@@ -20,4 +20,4 @@ function Circle(radius) {
   }
 }
 
-const anotherCircle = Circle(2)
+const anotherCircle = new Circle(2)
