@@ -12,7 +12,7 @@ function createCircle(radius) {
 const circle = createCircle(1)
 circle.draw()
 
-// Constructor function
+// Constructor function: function that is used to create the object
 function Circle(radius) {
   this.radius = radius
   this.draw = function() {
