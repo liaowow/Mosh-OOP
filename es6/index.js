@@ -1,3 +1,16 @@
+/*** ES6 symbol ***/
+const _radius = Symbol()
+const _draw = Symbol()
+class Circle {
+  constructor(radius) {
+    this[_radius] = radius
+  }
+
+  [_draw]() {
+    // ...some private function 
+  }
+}
+
 /*** ES6 `this` keyword ***/
 const CircleThis = function() {
   this.draw = function() { console.log(this) }
