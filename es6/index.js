@@ -1,4 +1,21 @@
-/*** ES6 symbol ***/
+/*** ES6: private properties using WeakMaps ***/
+const _radiusMap = new WeakMap()
+const _moveMap = new WeakMap()
+class Circle {
+  constructor(radius) {
+    _radiusMap.set(this, radius)
+    _moveMap.set(this, function() {
+      console.log('moving', this)
+    })
+  }
+
+  draw() {
+    _radiusMap.get(this)
+  }
+
+}
+
+/*** ES6: private properties using symbol ***/
 const _radius = Symbol()
 const _draw = Symbol()
 class Circle {
