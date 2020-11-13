@@ -8,9 +8,15 @@ class Circle {
       console.log('moving', this)
     })
   }
-
-  draw() {
+  
+  /*** Getters and Setters ***/
+  get radius() {
     _radiusMap.get(this)
+  }
+
+  set radius(value) {
+    if (value <= 0) throw new Error('invalid radius')
+    _radiusMap.set(this, value)
   }
 
 }
