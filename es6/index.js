@@ -1,3 +1,63 @@
+/*** ES6 Class practice ***/
+const _items = new WeakMap()
+
+class Stack {
+  constructor() {
+    _items.set(this, [])
+  }
+
+  push(obj) {
+    _items.get(this).push(obj)
+  }
+
+  pop() {
+    const items = _items.get(this)
+
+    if (!items.length) {
+      throw new Error('Stack is empty')
+    }
+
+    return items.pop()
+  }
+
+  peek() {
+    const items = _items.get(this)
+
+    if (!items.length) {
+      throw new Error('Stack is empty')
+    }
+
+    return items[items.length - 1]
+  }
+
+  get count() {
+    return _items.get(this).length
+  }
+}
+
+/*** ES6: Inheritance ***/
+class Shape {
+  constructor(color) {
+    this.color = color
+  }
+
+  move() {
+    console.log('moving')
+  }
+}
+
+class Triangle extends Shape {
+  constructor(color) {
+    super(color)
+  }
+
+  draw() {
+    console.log('drawing')
+  }
+}
+
+const t = new Triangle('🔼')
+
 /*** ES6: private properties using WeakMaps ***/
 const _radiusMap = new WeakMap()
 const _moveMap = new WeakMap()
