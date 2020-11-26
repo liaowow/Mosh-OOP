@@ -36,3 +36,14 @@ function increase(num) {
 increase(num)
 console.log(num) // -> 10
 ```
+
+### What and Why of OOP
+- Define: OOP is a programming model that is based on `objects` rather than functions and logic
+- Detail: A program is divided into collections of code called *objects* that contain both data and methods. These methods give objects the ability to interact with each other and access/manipulate data.
+- Reasons:
+  - Modularity
+  - Efficient problem-solving
+  - Code reuse
+- Resource: 
+  - [MDN Documentation on OOP](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+  - [Jason Humphrey's Coding Career Fastlane](https://codingcareerfastlane.com/free-content/?utm_source=ActiveCampaign&utm_medium=email&utm_content=OOP+interview+questions+deep+dive&utm_campaign=oop+Interview+questions)
