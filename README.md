@@ -47,3 +47,7 @@ console.log(num) // -> 10
 - Resource: 
   - [MDN Documentation on OOP](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
   - [Jason Humphrey's Coding Career Fastlane](https://codingcareerfastlane.com/free-content/?utm_source=ActiveCampaign&utm_medium=email&utm_content=OOP+interview+questions+deep+dive&utm_campaign=oop+Interview+questions)
+
+### Git
+- Resource:
+  - [Git Documentation](https://git-scm.com/docs)
