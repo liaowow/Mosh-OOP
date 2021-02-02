@@ -51,3 +51,4 @@ console.log(num) // -> 10
 ### Git
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
+  - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
