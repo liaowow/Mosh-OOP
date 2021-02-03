@@ -1,6 +1,6 @@
 # Overview
 
-This is a code-along with Mosh's [Object-Oriented Programming](https://codewithmosh.com/p/object-oriented-programming-in-javascript) course. Below are some notes taken along the way.
+This is a code-along with Mosh's [Object-Oriented Programming](https://codewithmosh.com/p/object-oriented-programming-in-javascript) and [Git](https://codewithmosh.com/courses/1120640) courses. Below are some notes taken along the way.
 
 ### Objects
 
@@ -49,6 +49,12 @@ console.log(num) // -> 10
   - [Jason Humphrey's Coding Career Fastlane](https://codingcareerfastlane.com/free-content/?utm_source=ActiveCampaign&utm_medium=email&utm_content=OOP+interview+questions+deep+dive&utm_campaign=oop+Interview+questions)
 
 ### Git
+- Branches
+  - To switch branches: `git switch {branch-name}` (more modern than `git checkout`)
+  - `HEAD` vs. `master` (via [stackOverflow](https://stackoverflow.com/questions/4386959/difference-between-head-and-master/32765225#:~:text=The%20simple%20answer%20is%20that,cannot%20delete%20the%20HEAD%20pointer.)):
+    - `HEAD` is a pointer/label to the most recent commit of the branch you are currently on
+    - `master` is the default branch created when you initialized a git repository (e.g. `git init`)
+    - You can delete the `master` branch (e.g. `git branch -D master`). You cannot delete the `HEAD` pointer.
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
   - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
