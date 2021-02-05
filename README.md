@@ -61,6 +61,7 @@ console.log(num) // -> 10
   - Merging:
     - Fast-forward merges (if branches have not diverged)
     - 3-way merges (if branches have diverged)
+    - [Resolving merge conflicts](https://dev.to/cookrdan/conflict-resolution-git-merge-practice-3iab)
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
   - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
