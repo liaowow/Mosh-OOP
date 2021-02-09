@@ -63,6 +63,11 @@ console.log(num) // -> 10
     - 3-way merges (if branches have diverged)
     - [Resolving merge conflicts](https://dev.to/cookrdan/conflict-resolution-git-merge-practice-3iab)
     - To abort the merge: `git merge --abort`
+    - To revert to the previous commit (one commit before the last/most recent one): `git reset --hard HEAD~1`
+  - Resetting:
+    - soft: revert only the **last snapshot**
+    - mixed: revert the **staging area** and **last snapshot**
+    - hard: revert the **working directory**, **staging area** and **last snapshot**
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
   - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
