@@ -68,6 +68,11 @@ console.log(num) // -> 10
     - soft: revert only the **last snapshot**
     - mixed: revert the **staging area** and **last snapshot**
     - hard: revert the **working directory**, **staging area** and **last snapshot**
+  - Rebasing:
+    - It rewrites history
+    - Only use when re-branching or when your commits are local in your repository
+    - 
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
   - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
+  - [Git merge vs. merge-squash vs. rebase](https://dev.to/hectorpascual/git-merge-merge-squash-and-rebase-reflexions-418l)
