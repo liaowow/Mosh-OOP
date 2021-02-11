@@ -71,8 +71,11 @@ console.log(num) // -> 10
   - Rebasing:
     - It rewrites history
     - Only use when re-branching or when your commits are local in your repository
-    - 
+  - Cherry-picking:
+    - When you have ONE particular commit in a certain branch that you want added to an active branch
+    - [Visualization by Lydia Hallie](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1#cherry-pick)
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
   - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
   - [Git merge vs. merge-squash vs. rebase](https://dev.to/hectorpascual/git-merge-merge-squash-and-rebase-reflexions-418l)
+  - [Useful Git Commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
