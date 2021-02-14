@@ -74,9 +74,17 @@ console.log(num) // -> 10
   - Cherry-picking:
     - When you have ONE particular commit in a certain branch that you want added to an active branch
     - [Visualization by Lydia Hallie](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1#cherry-pick)
+- Collaborating:
+    - Fetching (`git fetch`): 
+      - Shortcut for `git fetch origin`
+      - Only downloads new data from a remote repository - but it **doesn't integrate** any of this new data into your working files
+    - Pulling (`git pull`): 
+      - Fetch + Merge
+      - Not only downloads new data, it also directly **integrates** it into your current working copy files
 - Resource:
   - [Git Documentation](https://git-scm.com/docs)
   - [`git bisect`](https://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination)
   - [Git merge vs. merge-squash vs. rebase](https://dev.to/hectorpascual/git-merge-merge-squash-and-rebase-reflexions-418l)
   - [Useful Git Commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
   - [Git Commands Interactive Tutorial](https://try.github.io/)
+  - [Git Fetch vs. Git Pull](https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/)
